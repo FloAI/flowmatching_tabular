@@ -1,0 +1,17 @@
+# Core dependencies
+numpy>=1.21
+scikit-learn>=1.0
+joblib>=1.1
+tqdm>=4.64
+
+# Optional / recommended for default regressor
+xgboost>=1.7
+
+# Optional for advanced usage / parallel processing
+tqdm_joblib>=0.0.10
+
+# FlowMatching-BDT dependency (if installed separately)
+flowmatching-bdt>=0.1.0
+
+# For type hints and compatibility
+typing-extensions>=4.0

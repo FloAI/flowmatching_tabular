@@ -1,19 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-  name = 'flowmatching-bdt',
+  name = 'flowmatching-tabular',
   packages = find_packages(exclude=['assets']),
-  version = '0.2.0',
+  version = '0.1.0',
   license='MIT',
   description = 'Flow Matching with BDTs',
   long_description_content_type = 'text/markdown',
-  author = 'Radi Radev',
-  author_email = 'radi.radev.uk@gmail.com',
-  url = 'https://github.com/radiradev/flowmatching-bdt',
+  author = 'Flore N'kam Suguem',
+  author_email = 'flore.n_kam_suguem@math.univ-toulouse.fr',
+  url = 'https://https://github.com/FloAI/flowmatching_tabular',
   keywords = [
     'artificial intelligence',
     'flow matching',
-    'xgboost',
+    'regression',
   ],
   install_requires=[
     'xgboost>=2.0.0',
@@ -36,6 +36,6 @@ setup(
     'Intended Audience :: Developers',
     'Topic :: Scientific/Engineering :: Artificial Intelligence',
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
   ],
 )

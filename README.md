@@ -62,4 +62,4 @@ You can use any scikit-learn-compatible regressor with this FlowMatching-BDT ext
 - `GaussianProcessRegressor` – Non-parametric regression using Gaussian processes
 - `DecisionTreeRegressor` / `BaggingRegressor` – Ensemble wrappers for custom trees
 
-**Note**: Any regressor that implements the scikit-learn interface (`fit(X, y)` + `predict(X)`) can be used.
+Note: Any regressor that implements the scikit-learn interface (`fit(X, y)` + `predict(X)`) can be used.

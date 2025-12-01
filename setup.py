@@ -7,7 +7,7 @@ setup(
   license='MIT',
   description = 'Flow Matching with BDTs',
   long_description_content_type = 'text/markdown',
-  author = 'Flore N'kam Suguem',
+  author = 'Flore Nkam Suguem',
   author_email = 'flore.n_kam_suguem@math.univ-toulouse.fr',
   url = 'https://https://github.com/FloAI/flowmatching_tabular',
   keywords = [

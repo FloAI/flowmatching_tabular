@@ -30,7 +30,7 @@ cd flowmatching_tabular
 
 You can use any scikit-learn-compatible regressor with this FlowMatching-BDT extension.
 
-### 1️⃣ Linear Models
+ 1️⃣ Linear Models
 
 - `LinearRegression` – Ordinary least squares regression
 - `Ridge` – L2-regularized linear regression
@@ -42,7 +42,7 @@ You can use any scikit-learn-compatible regressor with this FlowMatching-BDT ext
 - `PoissonRegressor` – Generalized linear model for count data
 - `TweedieRegressor` – Flexible GLM (Poisson, Gamma, Gaussian)
 
-### 2️⃣ Tree-Based Models
+ 2️⃣ Tree-Based Models
 
 - `DecisionTreeRegressor` – Single decision tree
 - `RandomForestRegressor` – Ensemble of trees using bagging
@@ -50,16 +50,16 @@ You can use any scikit-learn-compatible regressor with this FlowMatching-BDT ext
 - `GradientBoostingRegressor` – Gradient boosting of decision trees
 - `HistGradientBoostingRegressor` – Fast histogram-based gradient boosting
 
-### 3️⃣ Neighbors-Based Models
+ 3️⃣ Neighbors-Based Models
 
 - `KNeighborsRegressor` – Predicts using average of K nearest neighbors
 - `RadiusNeighborsRegressor` – Uses neighbors within a radius
 
-### 4️⃣ Other Models
+ 4️⃣ Other Models
 
 - `SVR` – Support Vector Regression (linear or kernel-based)
 - `MLPRegressor` – Multi-layer perceptron (neural network)
 - `GaussianProcessRegressor` – Non-parametric regression using Gaussian processes
 - `DecisionTreeRegressor` / `BaggingRegressor` – Ensemble wrappers for custom trees
 
-**Note:** Any regressor that implements the scikit-learn interface (`fit(X, y)` + `predict(X)`) can be used.
+**Note**: Any regressor that implements the scikit-learn interface (`fit(X, y)` + `predict(X)`) can be used.

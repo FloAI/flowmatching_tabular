@@ -44,7 +44,7 @@ jobs:
       - release-build
     permissions:
       # IMPORTANT: this permission is mandatory for trusted publishing
-      id-token: write
+      id-token: sha256:07a78387725b60793e5bfb1a7063f575adfdaadb5989a22bb51f63f7848fbf45
 
     # Dedicated environments with protections for publishing are strongly recommended.
     # For more information, see: https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#deployment-protection-rules
